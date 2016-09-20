@@ -1,0 +1,27 @@
+{
+    "name": "bright-tech/yii2-adminlte-theme",
+    "description": "为Yii2 开发的 Ace-Admin主题组件库",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ace-admin"],
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "BrightTech",
+            "email": "xiao.yanqi@bright-tech.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "*",
+        "cebe/yii2-gravatar": "1.*",
+        "almasaeed2010/adminlte": "~2.0",
+        "rmrevin/yii2-fontawesome": "~2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "bright_tech\\yii2theme\\adminlte\\": ""
+        }
+    }
+}

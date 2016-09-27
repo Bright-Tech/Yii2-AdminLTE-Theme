@@ -216,7 +216,7 @@ class Sidebar extends Nav
             if (isset($item['visible']) && !$item['visible']) {
                 continue;
             }
-            $item['icon'] = 'fa fa-caret-right';
+            $item['icon'] = 'fa fa-circle-o';
 
 
             if (ArrayHelper::keyExists('items', $item)) {
